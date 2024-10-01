@@ -1,0 +1,51 @@
+#align{
+    text-align: center;
+}
+
+#align-last{
+    text-align: right;
+}
+
+#align-left{
+    text-align: left;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: column-reverse;
+}
+
+img{
+    padding: 5px;
+}
+
+.image-align{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.desendent p{
+    color: white;
+    background-color: blue;
+}
+
+.child p{
+    color: white;
+    background-color: blue;
+}
+
+.adjecent + p{
+    color: white;
+    background-color: blue;
+}
+
+.sibling ~ p{
+    color: white;
+    background-color: blue;
+}

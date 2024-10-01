@@ -1,0 +1,53 @@
+#external-paragraph{
+    color: blue;
+}
+
+span{
+    color: red;
+    background-color: springgreen;
+}
+
+* span{
+    text-transform: uppercase;
+}
+
+.external-heading{
+    color: green;
+}
+
+.link {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: violet;
+    text-decoration-thickness: 5px;
+}
+
+#create-link{
+    color: blue;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#pseudo-id :hover{
+    color: gray;
+}
+
+#pseudo-id:active{
+    color: red;
+}
+
+#pseudo-id:visited{
+    color: green;
+}
+
+#box{
+    padding: 10px;
+    border-style:solid ;
+    border-color: red;
+    margin: 10px;
+}
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.cKTq4enAGO_Wg_Omp0ysngHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-repeat: no-repeat;
+}
